@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "FNSTY Scoreboard Extended",
+  "description": "Adds additional stats to your fantasy scoreboard",
+  "version": "1.0",
+  "icons": {
+    "16": "/images/128-fntsyscore.png",
+    "48": "/images/128-fntsyscore.png",
+    "128": "/images/128-fntsyscore.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://fantasy.nfl.com/league/*"
+      ],
+      "js": ["highlight.js", "calculatePlayerDifferences.js", "calculateMatchupDifference.js","content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "/images/128-fntsyscore.png",
+      "48": "/images/128-fntsyscore.png",
+      "128": "/images/128-fntsyscore.png"
+    }
+  }  
+}
