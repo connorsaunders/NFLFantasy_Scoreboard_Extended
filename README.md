@@ -6,7 +6,7 @@ NFLFantasy Scoreboard Extended is a Chrome extension that uses simple DOM manipu
 
 ## Description
 
-This extension calculates the difference between individual player scores and team total scores, then highlights them accordingly for better visibility and understanding of your NFL Fantasy performance. 
+This extension calculates the difference between individual player scores and team total scores, then highlights them accordingly for better visibility of your NFL Fantasy scoreboards. 
 
 ## Installation
 
