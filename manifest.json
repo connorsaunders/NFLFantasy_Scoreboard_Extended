@@ -13,7 +13,7 @@
       "matches": [
         "https://fantasy.nfl.com/league/*"
       ],
-      "js": ["highlight.js", "calculatePlayerDifferences.js", "calculateMatchupDifference.js","content.js"]
+      "js": ["js/jquery.min.js","highlight.js", "calculatePlayerDifferences.js", "calculateMatchupDifference.js","content.js"]
     }
   ],
   "browser_action": {
