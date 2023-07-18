@@ -1,6 +1,6 @@
 # NFLFantasy Scoreboard Extension🏈📊
 
-![FNTSYExtenstionDemo](/FNTSYExtenstionDemo.gif)
+![Demo](/FNTSYExtensionDemo.gif)
 
 NFLFantasy Scoreboard Extended is a Chrome extension that uses simple DOM manipulation (JQuery) to display conditionally formatted updates to your NFL Fantasy Game Center.
 
