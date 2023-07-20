@@ -13,7 +13,7 @@ function highlight() {
             let diffFormatted = parseFloat(diff).toFixed(2);
             diffFormatted = (diff > 0) ? "+" + diffFormatted : diffFormatted; 
 
-            const message = $('<span>').addClass('message').css({ // Add class to message span
+            const message = $('<span>').addClass('message').css({ 
                 'marginTop': '15px',
                 'fontSize': '11px'
             }).text(diffFormatted);
